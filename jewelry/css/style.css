@@ -1447,9 +1447,11 @@ form.findus .form-control, form.findus textarea {
 
 /*****************CONTACT PAGE START**************/
 .header-contact-img{
-    background-image: url("../img/contact-header.jpg");
-      background-repeat: no-repeat;
-    height: 400px;
+    background-image: url(../img/contact-header.jpg);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
 }
 .contact-sec{
     padding-top: 125px;
