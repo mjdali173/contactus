@@ -1448,7 +1448,7 @@ form.findus .form-control, form.findus textarea {
 /*****************CONTACT PAGE START**************/
 .header-contact-img{
     background-image: url("../img/contact-header.jpg");
-  
+      background-repeat: no-repeat;
     height: 400px;
 }
 .contact-sec{
