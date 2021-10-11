@@ -5406,7 +5406,33 @@ header {
     padding: 14px 17px;
     font-size: 14px;
   }
+ 
+}
 
+#mobileshow { 
+  display:block; 
+  }
+  @media screen and (max-width: 500px) {
+  #mobileshow { 
+  display:none; }
+  }
   
+#mobilehide { 
+  display:none; 
+  }
+  @media screen and (max-width: 500px) {
+  #mobilehide { 
+  display:block; }
+  }
+
+
+  .barblue {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 1px;
+  background: #939695;
 }
 /*# sourceMappingURL=style.css.map */
