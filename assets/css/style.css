@@ -73,6 +73,7 @@
     1. Start COMMON css 
 ==========================*/
 @import url("https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300;400;500;700&family=Karla:wght@400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Unica+One&display=swap');
 html {
   font-size: 100%;
 }
@@ -955,18 +956,24 @@ header {
 .header-area-one .header-navigation .navigation-wrapper {
   position: relative;
   padding: 0 50px;
- 
+  background-color: #ffffff;
+  -webkit-box-shadow: 0px 10px 60px 0px rgb(22 37 66 / 15%);
+  box-shadow: 0px 10px 60px 0px rgb(22 37 66 / 15%);
+  
   margin-bottom: -76px;
   z-index: 2;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .header-area-one .header-navigation .navigation-wrapper {
     padding: 10px 15px;
+  background-color: #ffffff00;
+  
   }
 }
 @media (max-width: 991px) {
   .header-area-one .header-navigation .navigation-wrapper {
     padding: 10px 15px;
+    background-color: #ffffff00;
   }
 }
 .header-area-one .header-navigation .header-right-nav ul {
@@ -5399,5 +5406,7 @@ header {
     padding: 14px 17px;
     font-size: 14px;
   }
+
+  
 }
 /*# sourceMappingURL=style.css.map */
