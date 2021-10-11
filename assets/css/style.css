@@ -5432,7 +5432,9 @@ header {
   margin: 0 auto;
   text-align: center;
   padding-top: 30px;
-  padding-bottom: 1px;
+  padding-bottom: 30px;
   background: #939695;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 /*# sourceMappingURL=style.css.map */
