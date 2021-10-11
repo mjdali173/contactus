@@ -3633,7 +3633,7 @@ header {
 .team-item-one .team-content {
   position: relative;
   padding: 25px 30px;
-  background-color: #fff;
+  background-color: #e1e1e1;
   -webkit-box-shadow: 0px 10px 60px 0px rgba(22, 37, 66, 0.1);
           box-shadow: 0px 10px 60px 0px rgba(22, 37, 66, 0.1);
   margin: auto;
